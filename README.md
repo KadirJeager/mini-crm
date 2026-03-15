@@ -1,16 +1,37 @@
-# React + Vite
+# 🚀 Mini CRM - SaaS Satış ve Müşteri Takip Paneli
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern web geliştirme teknolojileri kullanılarak hazırlanmış, temel CRUD (Ekle, Listele, Güncelle, Sil) işlemlerini barındıran tek sayfalık bir web uygulamasıdır (SPA). Klasik bir "Yapılacaklar (TODO)" uygulamasının mantığı, B2B ve SaaS satış süreçlerine uyarlanarak profesyonel bir müşteri takip paneline dönüştürülmüştür.
 
-Currently, two official plugins are available:
+🔗 **Canlı Demo:** [Netlify Linkin Buraya Gelecek]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Ekran Görüntüsü
+![Mini CRM Ekran Görüntüsü](Ekran-Goruntusu-Linkin-Buraya-Gelecek.png)
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Framework:** React.js (Vite ile oluşturuldu)
+* **Stil (Styling):** Tailwind CSS
+* **Durum Yönetimi (State Management):** React Hooks (`useState`)
+* **Dağıtım (Deployment):** Netlify
 
-## Expanding the ESLint configuration
+## ✨ Proje Özellikleri (CRUD İşlemleri)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Ekleme (Create):** Yeni potansiyel firma adı ve iletişim kişisi ekleyerek portföy genişletilebilir.
+* **Listeleme (Read):** Eklenen tüm müşteriler ve güncel durumları dinamik olarak listelenir.
+* **Güncelleme (Update):** Müşteri görüşme durumları tek tıkla döngüsel olarak güncellenir (*Potansiyel ➔ Görüşme Bekliyor ➔ Teklif Verildi ➔ Kazanıldı*).
+* **Silme (Delete):** Süreci olumsuz sonuçlanan veya hatalı girilen kayıtlar sistemden silinebilir.
+
+## 📂 Dosya ve Klasör Yapısı
+
+Proje, modüler ve sürdürülebilir bir mimari için şu şekilde yapılandırılmıştır:
+* `/src/Pages`: Ana görünüm ve state yönetiminin yapıldığı bileşenler (`Dashboard.jsx`).
+* `/src/Components`: Tekrar kullanılabilir, bağımsız arayüz elemanları (`CustomerCard.jsx`).
+* `/src/Interfaces`: Başlangıç verileri ve veri yapısı şablonları (`CustomerData.js`).
+
+## 💻 Kurulum ve Çalıştırma
+
+Projeyi kendi bilgisayarınızda yerel olarak çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Projeyi klonlayın:
+   ```bash
+   git clone [https://github.com/KULLANICI-ADIN/mini-crm.git](https://github.com/KULLANICI-ADIN/mini-crm.git)
