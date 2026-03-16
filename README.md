@@ -2,7 +2,7 @@
 
 Bu proje, modern web geliştirme teknolojileri kullanılarak hazırlanmış, temel CRUD (Ekle, Listele, Güncelle, Sil) işlemlerini barındıran tek sayfalık bir web uygulamasıdır (SPA). Klasik bir "Yapılacaklar (TODO)" uygulamasının mantığı, B2B ve SaaS satış süreçlerine uyarlanarak profesyonel bir müşteri takip paneline dönüştürülmüştür.
 
-🔗 **Canlı Demo:** [Netlify Linkin Buraya Gelecek]
+🔗 **Canlı Demo:** https://admirable-klepon-a96b0f.netlify.app/
 
 ## 📸 Ekran Görüntüsü
 ![Mini CRM Ekran Görüntüsü](Ekran-Goruntusu-Linkin-Buraya-Gelecek.png)
